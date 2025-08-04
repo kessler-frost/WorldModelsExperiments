@@ -2,6 +2,8 @@
 
 Step by step instructions of reproducing [World Models](https://worldmodels.github.io/) ([pdf](https://arxiv.org/abs/1803.10122)).
 
+*Update (May 26, 2020): If you are looking for a recent implementation that uses a more updated framework, refer to this [implementation](https://github.com/zacwellmer/WorldModels) of World Models using TensorFlow 2.2 by @zacwellmer that reproduces all the experiments in our paper in a Docker container.*
+
 ![World Models](https://worldmodels.github.io/assets/world_models_card_both.png)
 
 Please see [blog post](http://blog.otoro.net//2018/06/09/world-models-experiments/) for step-by-step instructions.
@@ -14,14 +16,16 @@ Please note the library versions in the blog post. In particular, the experiment
 
 If you find this project useful in an academic setting, please cite:
 
-```
-@article{Ha2018WorldModels,
-  author = {Ha, D. and Schmidhuber, J.},
-  title  = {World Models},
-  eprint = {arXiv:1803.10122},
-  doi    = {10.5281/zenodo.1207631},
-  url    = {https://worldmodels.github.io},
-  year   = {2018}
+```latex
+@incollection{ha2018worldmodels,
+  title = {Recurrent World Models Facilitate Policy Evolution},
+  author = {Ha, David and Schmidhuber, J{\"u}rgen},
+  booktitle = {Advances in Neural Information Processing Systems 31},
+  pages = {2451--2463},
+  year = {2018},
+  publisher = {Curran Associates, Inc.},
+  url = {https://papers.nips.cc/paper/7512-recurrent-world-models-facilitate-policy-evolution},
+  note = "\url{https://worldmodels.github.io}",
 }
 ```
 
